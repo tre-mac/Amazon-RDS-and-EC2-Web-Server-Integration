@@ -20,7 +20,7 @@ Technologies Used
 - Amazon Linux 2023 – Operating system for the EC2 instance.
 
 
-1. Launching the Amazon EC2 Instance
+# 1. Launching the Amazon EC2 Instance
 The first step involved deploying a virtual server to host the web application.
 
 Key Actions:
