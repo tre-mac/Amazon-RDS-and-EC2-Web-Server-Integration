@@ -39,6 +39,7 @@ Key Actions:
 - After the instance entered the Running state, the Public IPv4 address was used to verify successful deployment. Navigating to http://<EC2-Public-IP> displayed the default “It works!” page, confirming that the web server was operational
 
 ![Example Image](folder/InstanceLab6.png)
+![Example Image](folder/ITWORKS.png)
 
 
 # 2. Creating and Configuring the Amazon RDS MariaDB Instance
