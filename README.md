@@ -60,7 +60,8 @@ require_secure_transport set to 0 to allow non-SSL connections for the lab envir
 - In the Connectivity section, selected “Connect to an EC2 compute resource” and chose the previously created web-server instance. This automatically configured the necessary security group rules to allow traffic between EC2 and RDS.
 - Disabled automated backups to remain within Free Tier limits.
 - After the database status changed to Available, the RDS endpoint and port (3306) were recorded for later use.
-
+![Example Image](folder/Step2part1.png)
+![Example Image](folder/Step2part2.png)
 
 # 3. Configuring the Apache Web Server and Database Connectivity
 With both compute and database resources in place, the EC2 instance was configured to communicate with the RDS database.
