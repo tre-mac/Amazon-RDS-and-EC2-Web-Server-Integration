@@ -3,7 +3,7 @@
 This project demonstrates how to deploy a full-stack cloud-based web application using Amazon Web Services (AWS). The lab focuses on launching an EC2 instance, creating an Amazon RDS MariaDB database, and enabling secure connectivity between the web server and the database within a Virtual Private Cloud (VPC).
 
 Objectives
-Launch an Amazon EC2 instance running Amazon Linux 2023.
+- Launch an Amazon EC2 instance running Amazon Linux 2023.
 Create and configure an Amazon RDS MariaDB database.
 Install and configure an Apache web server with PHP.
 Establish secure connectivity between EC2 and RDS within the same VPC.
