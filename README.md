@@ -80,12 +80,12 @@ sudo nano dbinfo.inc
 
 - Added the following PHP configuration, replacing placeholders with the actual RDS endpoint and password:
 
-<?php
+?php
 define('DB_SERVER', 'your-rds-endpoint');
 define('DB_USERNAME', 'IT442_user');
 define('DB_PASSWORD', 'your-password');
 define('DB_DATABASE', 'sample');
-?>
+?
 - Saved the file and ensured proper permissions so that the Apache web server could access it.
 
 - Verified successful connectivity by navigating to:
