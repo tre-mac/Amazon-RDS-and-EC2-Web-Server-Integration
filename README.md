@@ -39,7 +39,7 @@ Key Actions:
 - After the instance entered the Running state, the Public IPv4 address was used to verify successful deployment. Navigating to http://<EC2-Public-IP> displayed the default “It works!” page, confirming that the web server was operational
 
 
-2. Creating and Configuring the Amazon RDS MariaDB Instance
+# 2. Creating and Configuring the Amazon RDS MariaDB Instance
 The next phase involved deploying a managed relational database and enabling secure connectivity with the EC2 instance.
 
 - Accessed the Amazon RDS console and selected Create Database using the Full Configuration option.
@@ -59,7 +59,7 @@ require_secure_transport set to 0 to allow non-SSL connections for the lab envir
 - After the database status changed to Available, the RDS endpoint and port (3306) were recorded for later use.
 
 
-3. Configuring the Apache Web Server and Database Connectivity
+# 3. Configuring the Apache Web Server and Database Connectivity
 With both compute and database resources in place, the EC2 instance was configured to communicate with the RDS database.
 
 Key Actions:
@@ -94,7 +94,7 @@ Outcome:
 A dynamic web application capable of interacting with a managed MariaDB database.
 
 
-4. Verifying Database Connectivity Using the MySQL Client
+# 4. Verifying Database Connectivity Using the MySQL Client
 To ensure that the application successfully stored data, the database was accessed directly from the EC2 instance.
 
 Key Actions:
