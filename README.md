@@ -38,6 +38,8 @@ Key Actions:
 - Attached a user data script to automatically install and configure the Apache web server with PHP during instance initialization.
 - After the instance entered the Running state, the Public IPv4 address was used to verify successful deployment. Navigating to http://<EC2-Public-IP> displayed the default “It works!” page, confirming that the web server was operational
 
+![Example Image](folder/InstanceLab6.png)
+
 
 # 2. Creating and Configuring the Amazon RDS MariaDB Instance
 The next phase involved deploying a managed relational database and enabling secure connectivity with the EC2 instance.
